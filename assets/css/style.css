@@ -19,7 +19,7 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
 body {
   font-family: 'Hind', sans-serif;
   font-weight: normal;
@@ -114,7 +114,7 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid #EB3656;
+  border: 1px solid #482581;
   padding: 0 30px;
   font-size: 16px;
   line-height: 48px;
@@ -126,31 +126,31 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #EB3656;
-  -webkit-box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);
-  -moz-box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);
-  box-shadow: 0px 5px 16px 0px rgba(235, 54, 86, 0.65);
-  font-family: 'Barlow', sans-serif;
+  background-color: #482581;
+  -webkit-box-shadow: 0px 5px 16px 0px rgba(72, 37, 129, 0.644);
+  -moz-box-shadow: 0px 5px 16px 0px rgba(72, 37, 129, 0.644);
+  box-shadow: 0px 5px 16px 0px rgba(72, 37, 129, 0.644);
+  font-family: 'Inter', sans-serif;
   text-transform: uppercase; }
   .main-btn i {
     margin-right: 5px; }
   .main-btn:hover {
     background-color: #fff;
-    color: #EB3656;
-    border-color: #EB3656; }
+    color: #482581;
+    border-color: #482581; }
   .main-btn.main-btn-2 {
     background-color: #fff;
-    color: #EB3656;
-    border-color: #EB3656; }
+    color: #482581;
+    border-color: #482581; }
     .main-btn.main-btn-2:hover {
-      background-color: #EB3656;
-      border-color: #EB3656;
+      background-color: #482581;
+      border-color: #482581;
       color: #fff; }
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;
-  color: #EB3656;
+  color: #482581;
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .section-title .sub-title {
@@ -250,7 +250,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #EB3656 #EB3656 #ededed;
+      border-color: #482581 #482581 #ededed;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader_34 .ytp-spinner-left .ytp-spinner-circle {
@@ -557,7 +557,7 @@ p {
   padding: 0;
   position: relative; }
   .navbar .navbar-brand img {
-    max-width: 112px; }
+    max-width: 272px; }
   .navbar .navbar-toggler .toggler-icon {
     width: 30px;
     height: 2px;
@@ -614,7 +614,7 @@ p {
         .navbar .navbar-nav .nav-item a {
           font-size: 13px; } }
     .navbar .navbar-nav .nav-item.active a, .navbar .navbar-nav .nav-item:hover a {
-      color: #EB3656; }
+      color: #482581; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar .navbar-btn {
       position: absolute;
@@ -646,7 +646,7 @@ p {
     z-index: 9; }
     .header-banner .banner-content .sub-title {
       font-size: 24px;
-      color: #EB3656;
+      color: #482581;
       text-transform: uppercase; }
       @media (max-width: 767px) {
         .header-banner .banner-content .sub-title {
@@ -654,7 +654,7 @@ p {
     .header-banner .banner-content .banner-title {
       font-size: 60px; }
       .header-banner .banner-content .banner-title span {
-        color: #EB3656; }
+        color: #482581; }
       @media (max-width: 767px) {
         .header-banner .banner-content .banner-title {
           font-size: 38px; } }
@@ -662,8 +662,8 @@ p {
       position: relative;
       font-size: 15px;
       font-weight: 600;
-      font-family: 'Barlow', sans-serif;
-      color: #EB3656;
+      font-family: 'Inter', sans-serif;
+      color: #482581;
       text-transform: uppercase;
       margin-left: 70px; }
       .header-banner .banner-content .banner-contact::before {
@@ -671,7 +671,7 @@ p {
         content: '';
         width: 60px;
         height: 2px;
-        background-color: #EB3656;
+        background-color: #482581;
         left: -70px;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -772,7 +772,7 @@ p {
           .about-image .about-btn .main-btn span {
             font-size: 28px; } }
       .about-image .about-btn .main-btn:hover {
-        border-color: #EB3656; }
+        border-color: #482581; }
       @media (max-width: 767px) {
         .about-image .about-btn .main-btn {
           line-height: 48px;
@@ -788,7 +788,7 @@ p {
 
 .about-content .about-welcome {
   font-size: 24px;
-  color: #EB3656;
+  color: #482581;
   text-transform: uppercase; }
   @media (max-width: 767px) {
     .about-content .about-welcome {
@@ -825,7 +825,7 @@ p {
       padding: 30px 10px; } }
   .single-services .services-icon i {
     font-size: 52px;
-    color: #EB3656;
+    color: #482581;
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
@@ -834,14 +834,14 @@ p {
   .single-services .services-content .services-title {
     font-size: 22px;
     font-weight: 600;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Inter', sans-serif;
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s; }
   .single-services:hover {
-    background-color: #EB3656; }
+    background-color: #482581; }
     .single-services:hover .services-icon i {
       color: #fff; }
     .single-services:hover .services-content .services-title,
@@ -866,9 +866,9 @@ p {
       width: 100%;
       height: 100%;
       background: white;
-      background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 50%, #eb3656 100%);
-      background: -o-linear-gradient(rgba(255, 255, 255, 0) 50%, #eb3656 100%);
-      background: linear-gradient(rgba(255, 255, 255, 0) 50%, #eb3656 100%);
+      background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 50%, #482581 100%);
+      background: -o-linear-gradient(rgba(255, 255, 255, 0) 50%, #482581 100%);
+      background: linear-gradient(rgba(255, 255, 255, 0) 50%, #482581 100%);
       opacity: 0;
       -webkit-transition: all 0.4s ease-out 0s;
       -moz-transition: all 0.4s ease-out 0s;
@@ -895,7 +895,7 @@ p {
     .single-project .project-content .project-title {
       font-size: 22px;
       font-weight: 600;
-      font-family: 'Barlow', sans-serif;
+      font-family: 'Inter', sans-serif;
       position: relative;
       color: #fff;
       margin-left: 60px; }
@@ -938,7 +938,7 @@ p {
       cursor: pointer; }
     .project-active .slick-dots li.slick-active button {
       width: 35px;
-      background-color: #EB3656; }
+      background-color: #482581; }
 
 /*===========================
         6.TEAM css 
@@ -975,7 +975,7 @@ p {
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s; }
     .single-team .team-content .team-name a:hover {
-      color: #EB3656; }
+      color: #482581; }
   .single-team .team-content .sub-title {
     font-size: 14px;
     color: #646464; }
@@ -1006,7 +1006,7 @@ p {
         -o-transition: all 0.4s ease-out 0s;
         transition: all 0.4s ease-out 0s; }
         .single-team .team-content .social li a:hover {
-          background-color: #EB3656;
+          background-color: #482581;
           color: #fff; }
 
 .single-team:hover .team-content {
@@ -1058,7 +1058,7 @@ p {
   z-index: 9; }
 
 .testimonial-active {
-  background-color: #EB3656;
+  background-color: #482581;
   padding: 60px 30px; }
   @media (max-width: 767px) {
     .testimonial-active {
@@ -1076,13 +1076,13 @@ p {
     display: inline-block; }
     .single-testimonial .testimonial-image .quota i {
       font-size: 18px;
-      color: #EB3656;
+      color: #482581;
       width: 30px;
       height: 30px;
       line-height: 28px;
       text-align: center;
       background-color: #fff;
-      border: 2px solid #EB3656;
+      border: 2px solid #482581;
       border-radius: 50%; }
 
 .single-testimonial .testimonial-content p {
@@ -1091,7 +1091,7 @@ p {
   font-family: 'Hind', sans-serif; }
 
 .single-testimonial .testimonial-content .testimonial-name {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #fff;
   font-weight: 600; }
@@ -1224,7 +1224,7 @@ p.form-message.error {
     padding-bottom: 80px; } }
 
 .footer-logo a img {
-  width: 140px; }
+  width: 240px; }
 
 .footer-logo p {
   line-height: 26px;
@@ -1267,12 +1267,12 @@ p.form-message.error {
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s; }
     .footer-logo .footer-social li a:hover {
-      background-color: #EB3656;
+      background-color: #482581;
       color: #fff; }
 
 .f-title .title {
   font-size: 22px;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600; }
 
 .footer-link ul li {
@@ -1287,7 +1287,7 @@ p.form-message.error {
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s; }
     .footer-link ul li a:hover {
-      color: #EB3656; }
+      color: #482581; }
 
 .footer-newsleter p {
   line-height: 26px;
@@ -1299,7 +1299,7 @@ p.form-message.error {
     width: 100%;
     height: 50px;
     padding: 0 20px;
-    border: 1px solid #EB3656;
+    border: 1px solid #482581;
     background-color: #ffeae1; }
   .footer-newsleter .newsleter button {
     border: 0;
@@ -1311,7 +1311,7 @@ p.form-message.error {
     position: absolute;
     top: 0;
     right: 0;
-    color: #EB3656;
+    color: #482581;
     font-size: 20px;
     line-height: 57px;
     cursor: pointer; }
@@ -1325,7 +1325,7 @@ p.form-message.error {
       left: 0;
       width: 1px;
       height: 36px;
-      background-color: #EB3656;
+      background-color: #482581;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -1356,7 +1356,7 @@ p.form-message.error {
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   color: #fff;
-  background-color: #EB3656; }
+  background-color: #482581; }
   .back-to-top:hover {
-    color: #EB3656;
+    color: #482581;
     background-color: #fff; }
