@@ -141,7 +141,24 @@ $(function() {
     });
     
     
-    
+    $(document).ready(function() {
+      $("#sendButton").on("click", function() {
+        sendEmail();
+      });
+    });
+
+    function sendEmail() {
+      Email.send({
+        // SecureToken: "your_secure_token",
+        To: 'contato@rastreadorstore.com',
+        From: $("#email").val(),
+        Subject: 'Contato Rastreador Store',
+        Body: 'Nome: ' + $("#name").val() + '<br>Email: ' + $("#email").val() + '<br>Mensagem: ' + $("#message").val()
+      }).then(
+        console.log(message)
+        // message => alert(message)
+      );
+    }
     
     
     
