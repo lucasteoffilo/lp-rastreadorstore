@@ -105,6 +105,7 @@ p {
 
 /*===== All Button Style =====*/
 .main-btn {
+  border-radius: 10px;
   display: inline-block;
   font-weight: 600;
   text-align: center;
@@ -557,7 +558,7 @@ p {
   padding: 0;
   position: relative; }
   .navbar .navbar-brand img {
-    max-width: 272px; }
+    max-width: 232px; }
   .navbar .navbar-toggler .toggler-icon {
     width: 30px;
     height: 2px;
@@ -810,6 +811,7 @@ p {
     padding-bottom: 80px; } }
 
 .single-services {
+  border-radius: 10px;
   padding: 50px 30px;
   background-color: #fff;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -928,7 +930,7 @@ p {
       height: 15px;
       border-radius: 50px;
       border: 0;
-      background-color: rgba(235, 54, 86, 0.7);
+      background-color: rgba(196, 190, 255, 0.7);
       -webkit-transition: all 0.4s ease-out 0s;
       -moz-transition: all 0.4s ease-out 0s;
       -ms-transition: all 0.4s ease-out 0s;
@@ -1224,7 +1226,8 @@ p.form-message.error {
     padding-bottom: 80px; } }
 
 .footer-logo a img {
-  width: 240px; }
+  width: 240px; 
+}
 
 .footer-logo p {
   line-height: 26px;
@@ -1336,7 +1339,12 @@ p.form-message.error {
   border-top: 1px solid #eceff8;
   padding: 13px 0; }
 
+.img-prod {
+  border-radius: 10px !important;
+}
+
 .back-to-top {
+  border-radius: 10px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -1360,3 +1368,15 @@ p.form-message.error {
   .back-to-top:hover {
     color: #482581;
     background-color: #fff; }
+
+    @media (max-width: 1360px) {
+      .banner-image {
+          display: none!important;
+      }
+    }
+    @media (max-width: 720px) {
+      /* Adicione seus estilos CSS aqui */
+      .single-image-ft {
+        display: none;
+      }
+    }

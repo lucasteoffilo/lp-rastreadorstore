@@ -168,7 +168,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-image mt-50 clearfix">
-                        <div class="single-image float-left">
+                        <div class="single-image single-image-ft float-left">
                             <img src="assets/images/about/about-1.png" alt="About">
                         </div> <!-- single image -->
                         <!-- <div data-aos="fade-right" class="about-btn">
@@ -270,73 +270,23 @@
         </div>
         <div class="container-fluid">
             <div class="row project-active">
-                <div class="col-lg-4">
+                <div class="col-lg-8 img-prod">
                     <div class="single-project">
                         <div class="project-image">
-                            <img src="assets/images/project/p-1.jpg" alt="Project">
+                            <img class="img-prod" src="assets/images/project/RS14.png" alt="Project">
                         </div>
                         <div class="project-content">
-                            <a class="project-title" >Rastreador Mod. 1</a>
+                            <a class="project-title" >RS14</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="single-project">
-                        <div class="project-image">
-                            <img src="assets/images/project/p-2.jpg" alt="Project">
+                <div class="col-lg-8 img-prod">
+                    <div class="single-project img-prod">
+                        <div class="project-image img-prod">
+                            <img class="img-prod" src="assets/images/project/RS16.png" alt="Project">
                         </div>
                         <div class="project-content">
-                            <a class="project-title" >Rastreador Mod. 2</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-project">
-                        <div class="project-image">
-                            <img src="assets/images/project/p-3.jpg" alt="Project">
-                        </div>
-                        <div class="project-content">
-                            <a class="project-title" >Rastreador Mod. 3</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-project">
-                        <div class="project-image">
-                            <img src="assets/images/project/p-4.jpg" alt="Project">
-                        </div>
-                        <div class="project-content">
-                            <a class="project-title" >Rastreador Mod. 4</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-project">
-                        <div class="project-image">
-                            <img src="assets/images/project/p-5.jpg" alt="Project">
-                        </div>
-                        <div class="project-content">
-                            <a class="project-title" >Rastreador Mod. 5</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-project">
-                        <div class="project-image">
-                            <img src="assets/images/project/p-2.jpg" alt="Project">
-                        </div>
-                        <div class="project-content">
-                            <a class="project-title" >Rastreador Mod. 6</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-project">
-                        <div class="project-image">
-                            <img src="assets/images/project/p-4.jpg" alt="Project">
-                        </div>
-                        <div class="project-content">
-                            <a class="project-title">Rastreador Mod. 7</a>
+                            <a class="project-title" >RS16</a>
                         </div>
                     </div>
                 </div>
@@ -453,7 +403,7 @@
                         <div class="testimonial-active">
                             <div class="single-testimonial text-center">
                                 <div class="testimonial-image">
-                                    <img src="assets/images/testimonial/t-1.jpg" alt="Testimonial">
+                                    <img src="assets/images/testimonial/t-1.png" alt="Testimonial">
                                     <div class="quota">
                                         <i class="lni-quotation"></i>
                                     </div>
@@ -467,7 +417,7 @@
                             </div> <!-- single-testimonial -->
                             <div class="single-testimonial text-center">
                                 <div class="testimonial-image">
-                                    <img src="assets/images/testimonial/t-2.jpg" alt="Testimonial">
+                                    <img src="assets/images/testimonial/t-2.png" alt="Testimonial">
                                     <div class="quota">
                                         <i class="lni-quotation"></i>
                                     </div>
@@ -481,7 +431,7 @@
                             </div> <!-- single-testimonial -->
                             <div class="single-testimonial text-center">
                                 <div class="testimonial-image">
-                                    <img src="assets/images/testimonial/t-3.jpg" alt="Testimonial">
+                                    <img src="assets/images/testimonial/t-3.png" alt="Testimonial">
                                     <div class="quota">
                                         <i class="lni-quotation"></i>
                                     </div>
@@ -519,17 +469,10 @@
                     <div class="contact-form">
                         <form id="contact-form" data-toggle="validator">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="single-form form-group">
                                         <input type="text" name="name" placeholder="Nome" data-error="Name is required."
                                             required="required">
-                                        <div class="help-block with-errors"></div>
-                                    </div> <!-- single form -->
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="single-form form-group">
-                                        <input type="text" name="phone" placeholder="Telefone"
-                                            data-error="Phone is required." required="required">
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
                                 </div>
@@ -542,7 +485,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single-form form-group">
-                                        <textarea placeholder="Mensagem" name="message"
+                                        <textarea placeholder="Mensagem" id="message" name="message"
                                             data-error="Please,leave us a message." required="required"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
@@ -565,7 +508,7 @@
 
     <!--====== MAP PART START ======-->
 
-    <section id="map" class="map-area">
+    <!-- <section id="map" class="map-area">
         <div class="mapouter">
             <div class="gmap_canvas">
                 <iframe id="gmap_canvas"
@@ -575,7 +518,7 @@
         </div>
         <div class="map-bg bg_cover d-none d-lg-block" style="background-image: url(assets/images/map/map-bg.jpg)">
         </div>
-    </section>
+    </section> -->
 
     <!--====== MAP PART ENDS ======-->
 

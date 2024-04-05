@@ -143,21 +143,26 @@ $(function() {
     
     $(document).ready(function() {
       $("#sendButton").on("click", function() {
-        sendEmail();
+        sendMsg();
       });
     });
 
-    function sendEmail() {
-      Email.send({
-        // SecureToken: "your_secure_token",
-        To: 'contato@rastreadorstore.com',
-        From: $("#email").val(),
-        Subject: 'Contato Rastreador Store',
-        Body: 'Nome: ' + $("#name").val() + '<br>Email: ' + $("#email").val() + '<br>Mensagem: ' + $("#message").val()
-      }).then(
-        console.log(message)
-        // message => alert(message)
-      );
+    function sendMsg() {
+      $('#contact-form').submit(function(event) {
+        event.preventDefault();
+        var allFilled = true;
+        $('#contact-form input, #contact-form textarea').each(function() {
+            if($(this).val() === '') {
+                allFilled = false;
+            }
+        });
+        if(!allFilled) {
+          $('.form-message').text('Por favor, preencha todos os campos.');
+        } else {
+          var url = 'https://api.whatsapp.com/send/?phone=5521979577580&text='+$("#message").val().replace(/ /g, "+")+'&type=phone_number&app_absent=0'
+          window.open(url, '_blank');    
+        }
+      });
     }
     
     
